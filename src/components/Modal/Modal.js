@@ -45,7 +45,9 @@ export default class Modal extends Component {
       >
         <div className={s.Modal}>
           <img src={largeImageURL} alt="" />
-          <button className={s.closeButton} onClick={this.props.onClose}>X</button>
+          <button className={s.closeButton} onClick={this.props.onClose}>
+            X
+          </button>
         </div>
       </div>
     );
